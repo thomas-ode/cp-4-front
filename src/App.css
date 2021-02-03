@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: var(--light);
+}
+
+:root {
+  --main-font: 'Sunflower', sans-serif;
+  --secondary-font:'Sunflower', sans-serif;
+  --third-font: 'Sunflower', sans-serif;
+  --main-color-font: black;
+  --secondary-color-font: white;
+  --spacing: 8px;
+  --spacing-medium: calc(var(--spacing) * 2);
+  --spacing-large: calc(var(--spacing) * 4);
+  --main-color: #A5acaf;
+  --dark: #002244;
+  --light: #f2efeb;
+  --light-main: #8d8b8d;
+  --secondary-color: #69BE28;
+}

@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--dark);
+    color: var(--secondary-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: var(--third-font);
+    z-index: 3;
+}
+
+.navbar #logo{
+    height: 100px;
+}
+
+@media screen and (max-width: 700px){
+    .navbar{
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        padding: var(--spacing-medium) 0px;
+    }
+
+    .navbar #logo{
+        height: 50px;
+    }
+}

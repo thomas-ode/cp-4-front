@@ -1,0 +1,11 @@
+.presentation{
+    padding-top: 125px;
+}
+
+.big-title{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 40px;
+}
