@@ -1,0 +1,27 @@
+.all-stadium{
+    padding-top: 60px;
+}
+
+.stad-title{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.stads{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stade-list{
+    list-style: none;
+    color: var(--light-main);
+    font-family: var(--main-font);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

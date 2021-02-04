@@ -1,0 +1,46 @@
+.all-jersey{
+    padding-top: 60px;
+}
+
+.title-jersey{
+    padding-top: 60px;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.around-uni{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+.card-uni{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.uni-img{
+    object-fit: cover;
+    width: 20vw;
+    height: 40vh;
+    transition: all .2s ease-in-out;
+}
+
+.uni-img:hover{
+    transform: scale(1.1);
+}
+
+.uni-name{
+    padding-top: 20px;
+    color: var(--dark);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 40px;
+}

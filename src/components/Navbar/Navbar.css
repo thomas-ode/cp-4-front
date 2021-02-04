@@ -9,6 +9,7 @@
     width: 100%;
     font-family: var(--third-font);
     z-index: 3;
+    border-bottom: solid 3px var(--secondary-color);
 }
 
 .navbar #logo{

@@ -1,0 +1,20 @@
+.roster-all{
+    padding-top: 125px;
+}
+
+.roster-title{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.player-title{
+        color: var(--dark);
+        text-align: center;
+        font-family: var(--main-font);
+        font-weight: bolder;
+        font-size: 35px;
+        padding-top: 60px;
+}

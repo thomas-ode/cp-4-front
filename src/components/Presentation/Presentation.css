@@ -9,3 +9,33 @@
     font-weight: bolder;
     font-size: 40px;
 }
+
+.info-list{
+    padding-top: 80px;
+    display: flex;
+    height: 50vh;
+}
+
+.img-info{
+    width: auto;
+    padding-left: 150px;
+    object-fit: cover;
+}
+
+.list-info{
+    list-style: none;
+    color: var(--light-main);
+    font-family: var(--main-font);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 200px;    
+}
+
+.separation{
+    padding-top: 80px;
+    margin: auto;
+    width: 30vw;
+    border-bottom: 3px solid var(--dark);
+}

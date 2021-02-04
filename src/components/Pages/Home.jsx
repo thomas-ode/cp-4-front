@@ -1,7 +1,10 @@
 import { useEffect } from 'react'
 import NavBar from '../Navbar/Navbar';
-import Presentation from '../Presentation/Presentation'
+import Presentation from '../Presentation/Presentation';
 import Footer from '../Footer/Footer';
+import Stadium from '../Stadium/Stadium';
+import Map from '../Map/Map';
+import Jersey from '../Jersey/Jersey'
 
 function Home() {
 
@@ -13,6 +16,9 @@ function Home() {
     <div>
       <NavBar />
       <Presentation />
+      <Stadium />
+      <Map />
+      <Jersey />
       <Footer />
     </div>
   );
