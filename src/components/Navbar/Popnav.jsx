@@ -14,6 +14,9 @@ const UL = styled.ul`
         font-family: var(--main-font);
         padding: 18px 10px;
         transition: 0.5s;
+        font-size: 30px;
+        padding-left: 40px;
+        padding-right : 40px;
     }
 
     .liLinks:hover{
@@ -72,6 +75,7 @@ const PopNav = ({ open }) => {
             <li><Link to="/" className="liLinks">Accueil</Link></li>
             <li><Link to="/roster" className="liLinks">Roster</Link></li>
             <li><Link to="/calendrier" className="liLinks">Calendrier</Link></li>
+            <li><Link to='/admin' className="liLinks">🔐</Link></li>
         </UL>
     )
 }

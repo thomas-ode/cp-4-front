@@ -1,0 +1,40 @@
+.all-admin{
+    padding-top: 125px;
+}
+
+.admin-title{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.section-title{
+    color: var(--dark);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.form-roster{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    font-family: var(--main-font);
+}
+
+.form-roster input{
+    margin: 10px;
+}
+
+

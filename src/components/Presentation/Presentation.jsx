@@ -21,12 +21,12 @@ function Presentation() {
                     <div className="info-list">
                         <img src={infos.logo} alt='Seahawks group' className="img-info" />
                         <ul className="list-info">
-                            <li className='li-infos'>🏈 Date de création : {infos.creation_date}</li>
-                            <li className='li-infos'>🏈 Division : {infos.division}</li>
-                            <li className='li-infos'>🏈 Stade : {infos.stadium}</li>
-                            <li className='li-infos'>🏈 Propriétaire : {infos.owner}</li>
-                            <li className='li-infos'>🏈 Head coach : {infos.coach}</li>
-                            <li className='li-infos'>🏈 SuperBowl gagné : {infos.championship}</li>
+                            <li className='li-infos'><span className='logo-ball'>🏈 </span> Date de création : {infos.creation_date}</li>
+                            <li className='li-infos'><span className='logo-ball'>🏈 </span> Division : {infos.division}</li>
+                            <li className='li-infos'><span className='logo-ball'>🏈 </span> Stade : {infos.stadium}</li>
+                            <li className='li-infos'><span className='logo-ball'>🏈 </span> Propriétaire : {infos.owner}</li>
+                            <li className='li-infos'><span className='logo-ball'>🏈 </span> Head coach : {infos.coach}</li>
+                            <li className='li-infos'><span className='logo-ball'>🏈 </span> SuperBowl gagné : {infos.championship}</li>
                         </ul>
                     </div>
                 )}

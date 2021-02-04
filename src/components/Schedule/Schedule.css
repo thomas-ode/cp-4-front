@@ -1,0 +1,86 @@
+.schedule-all{
+    padding-top: 125px;
+}
+
+.schedule-title{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.regular-title{
+    color: var(--dark);
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.week-game{
+    color: var(--dark);
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.date-game{
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-team{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.team-name{
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.score{
+    color: var(--dark);
+    font-family: var(--secondary-font);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.middle-bar{
+    color: var(--main-color);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.all-games{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 200px;
+    background-color: #e0e0e0;
+    box-shadow: 10px 5px 5px black;
+    transition: all .2s ease-in-out;
+    border-radius: 4px;
+}
+
+.all-games:hover{
+    transform: scale(1.05);
+}

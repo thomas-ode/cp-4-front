@@ -14,23 +14,24 @@
     padding-top: 80px;
     display: flex;
     height: 50vh;
+    justify-content: space-around;
 }
 
 .img-info{
     width: auto;
-    padding-left: 150px;
     object-fit: cover;
+    border-radius: 4px;
 }
 
 .list-info{
     list-style: none;
     color: var(--light-main);
-    font-family: var(--main-font);
+    font-family: var(--secondary-font);
     font-size: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-left: 200px;    
+    justify-content: space-between;  
+    padding-right: 200px;
 }
 
 .separation{
@@ -38,4 +39,8 @@
     margin: auto;
     width: 30vw;
     border-bottom: 3px solid var(--dark);
+}
+
+.logo-ball{
+    padding-right: 12px;
 }

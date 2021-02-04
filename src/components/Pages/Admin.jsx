@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
 import NavBar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import ScheduleList from '../Schedule/ScheduleList';
+import Administrator from '../Admin/Administrator'
 
-function Schedule() {
+function Roster() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -12,10 +12,10 @@ function Schedule() {
   return (
     <div>
       <NavBar />
-      <ScheduleList />
+      <Administrator />
       <Footer />
     </div>
   );
 }
 
-export default Schedule;
+export default Roster;

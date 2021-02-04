@@ -17,4 +17,37 @@
         font-weight: bolder;
         font-size: 35px;
         padding-top: 60px;
+        padding-bottom: 60px;
 }
+
+
+
+tr:hover {
+    background-color: var(--main-color);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    font-family: var(--secondary-font);
+    margin-bottom: 80px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--secondary-color);
+    color: var(--dark);
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+  
